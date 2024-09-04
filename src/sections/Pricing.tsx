@@ -5,7 +5,7 @@ import React from "react";
 
 function Pricing() {
   const displayPricing = pricing.map((p) => (
-    <PricingCard planName={p.planName} desc={p.desc} price={p.price} />
+    <PricingCard key={p.desc} planName={p.planName} desc={p.desc} price={p.price} />
   ));
   return (
     <section className="bg-gray-200 py-20">

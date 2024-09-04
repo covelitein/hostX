@@ -6,7 +6,7 @@ import React from "react";
 
 function Tools() {
   const displayTools = tools.map((tool) => (
-    <ToolCard src={tool.src} heading={tool.heading} desc={tool.desc} />
+    <ToolCard key={tool.src} src={tool.src} heading={tool.heading} desc={tool.desc} />
   ));
 
   return (
