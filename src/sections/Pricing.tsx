@@ -13,7 +13,7 @@ function Pricing() {
         <h5 className="text-center md:text-xl text-lg mb-2 text-[#06065c] font-semibold">THE BEST WEB HOSTING</h5>
         <h2 className="text-center md:text-5xl text-3xl text-[#06065c] font-semibold">Scalable, Simple Pricing</h2>
         <p className="text-center mt-4">
-          Unbeatable price whether you're looking to create a website, blog or
+          Unbeatable price whether you&apos;re looking to create a website, blog or
           online store,
         </p>
         <p className="text-center max-sm:text-sm">
