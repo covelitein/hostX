@@ -1,28 +1,75 @@
-import { Container } from "@/components/custom";
+"use client";
+
 import React from "react";
-import { IoShieldHalf } from "react-icons/io5";
-import { FaCheckCircle, FaLaptopCode } from "react-icons/fa";
-import { FiHeadphones } from "react-icons/fi";
+import { FaShieldAlt, FaHeadset, FaCode } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function Features() {
   return (
-    <div className="py-10">
-      <Container className="max-md:px-5">
-        <div className="grid md:grid-cols-3 grid-cols-1 gap-4 ">
-          <div className="flex flex-col items-center gap-2 py-5 px-7 shadow-md border-[1px] rounded-lg">
-            <IoShieldHalf className="text-5xl text-[#06065c]" />
-            <h3 className="font-semibold text-lg max-md:text-center">30-day money-back guarantee</h3>
+    <div>
+      {/* feature start */}
+      <div className="z-[2] mt-14">
+        {/* first start */}
+        <motion.div
+          className="z-[9] relative"
+          animate={{
+            y: [0, 30],
+          }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "linear",
+          }}
+        >
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] mb-7 flex items-center gap-5">
+            <FaShieldAlt className="text-3xl" />
+            <h3 className="">30-day money-back guarantee</h3>
           </div>
-          <div className="flex flex-col items-center gap-2 py-5 px-7 shadow-md border-[1px] rounded-lg">
-            <FiHeadphones className="text-5xl text-[#06065c]" />
-            <h3 className="font-semibold text-lg max-md:text-center"> Unlimited support</h3>
+        </motion.div>
+        {/* first end */}
+
+        {/* second start */}
+        <motion.div
+          className="z-[9] relative"
+          animate={{
+            x: [0, 25],
+          }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "linear",
+          }}
+        >
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] mb-7 flex items-center gap-5">
+            <FaHeadset className="text-3xl" />
+            <h3 className="">Unlimited support</h3>
           </div>
-          <div className="flex flex-col items-center gap-2 py-5 px-7 shadow-md border-[1px] rounded-lg">
-            <FaLaptopCode className="text-5xl text-[#06065c]" />
-            <h3 className="font-semibold text-lg max-md:text-center">Standby developers if needed</h3>
+        </motion.div>
+        {/* second end */}
+
+        {/* third start */}
+        <motion.div
+          className="z-[9] relative"
+          animate={{
+            y: [30, 0],
+          }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "linear",
+          }}
+        >
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] flex items-center gap-5">
+            <FaCode className="text-3xl" />
+            <h3 className="">Standby developers if needed</h3>
           </div>
-        </div>
-      </Container>
+        </motion.div>
+        {/* third end */}
+      </div>
+      {/* feature end */}
     </div>
   );
 }

@@ -6,7 +6,7 @@ import "./globals.css";
 const montserrat = localFont({
   src: [
     {
-      path: "../../public/fonts/Inter-VariableFont_opsz,wght.ttf",
+      path: "../../public/fonts/Montserrat-VariableFont_wght.woff2",
     },
   ],
 });

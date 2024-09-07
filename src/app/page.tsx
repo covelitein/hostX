@@ -1,38 +1,22 @@
-import {
-  CtaW,
-  Features,
-  Header,
-  Hero,
-  Pricing,
-  Tools,
-} from "@/sections";
+import { About, Header, Hero, HeroBG } from "@/sections";
 
 export default function Home() {
   return (
-    <main className="">
+    <>
       {/* header start */}
       <Header />
       {/* header end */}
+      <main className="grid md:grid-cols-2 grid-cols-1">
+        {/* hero start */}
+        <Hero />
+        {/* hero end */}
 
-      {/* hero start */}
-      <Hero />
-      {/* hero end */}
+        {/* img start */}
+        <HeroBG />
+        {/* img end */}
+      </main>
 
-      {/* features start */}
-      <Features />
-      {/* features end */}
-
-      {/* pricing start */}
-      <Pricing />
-      {/* pricing end */}
-
-      {/* tools start */}
-      <Tools />
-      {/* tools end */}
-
-      {/* call to action for wordpress start */}
-      <CtaW />
-      {/* call to action for wordpress end */}
-    </main>
+      <About />
+    </>
   );
 }

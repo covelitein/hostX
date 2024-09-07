@@ -1,38 +1,31 @@
-import { Container, RippleButton } from "@/components/custom";
-import { Image } from "@nextui-org/react";
+import { RippleButton } from "@/components/custom";
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="py-5">
-      <Container className="grid md:grid-cols-2 grid-cols-1 max-md:px-5">
-        {/* desc start */}
-        <div className="flex flex-col justify-center md:pr-20 max-md:py-5">
-          <h3 className="md:text-6xl text-4xl font-bold text-[#06065c] mb-5 font-[PolySans-Median]">
-            Your Ideas. <br /> Better Hosting.
-          </h3>
-          <p className="mb-5">
+    <>
+      {/* hero start */}
+      <div className="moving-gradient md:min-h-screen pb-10">
+        <div className="lg:px-16 md:px-12 sm:px-10 px-6 lg:mt-[15rem] md:mt-[13rem] mt-32 text-white">
+          <h3 className="lg:text-6xl md:text-4xl text-3xl mb-3">Your Ideas.</h3>
+          <h3 className="lg:text-6xl md:text-4xl text-3xl">Better Hosting.</h3>
+          <p className="mt-5 max-lg:text-sm">
             Find the perfect home for your website. Whether you want speed,
             simplicity, space, or super-power, we’ve got you covered with
             shared, VPS, dedicated, and Managed WordPress options.
           </p>
-          
-          <div className="">
-            <RippleButton className="text-base bg-[#06065c] py-3 mt-5 max-sm:w-full">
-              Get started
+          <div className="mt-7 flex lg:flex-row flex-col lg:items-center lg:gap-4 gap-2">
+            <RippleButton className="rounded-xl border-[1px] border-[#06065c] max-lg:text-sm">
+              Get Started Now
+            </RippleButton>
+            <RippleButton className="rounded-xl border-[1px] border-white bg-transparent hover:bg-white hover:text-[#06065c] duration-200 max-lg:text-sm">
+              Find Domain
             </RippleButton>
           </div>
         </div>
-        {/* desc end */}
-
-        {/* img start */}
-        <div className="max-md:order-first">
-          <Image src="/imgs/hero1.png" />
-        </div>
-        {/* img end */}
-      </Container>
-    </div>
+      </div>
+      {/* hero end */}
+    </>
   );
 }
 

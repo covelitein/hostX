@@ -1,64 +1,48 @@
-import { Container, RippleButton } from "@/components/custom";
-import Link from "next/link";
 import React from "react";
-import { BsCart3 } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa6";
-import { Image } from "@nextui-org/react";
-import { IoMenuSharp } from "react-icons/io5";
+import { BsCart } from "react-icons/bs";
+import { MdOutlineMenu } from "react-icons/md";
 
 function Header() {
   return (
-    <header className="">
-      <Container className="py-5 max-sm:px-5">
-        {/* first batch start */}
-        <div className="flex justify-between items-center">
-          {/* logo start */}
-          <Image src="/imgs/logo1.png" className="md:h-[2rem] h-[1.5rem]" alt="" />
-          {/* logo end */}
-
-          {/* cta start */}
-          <div className="flex items-center gap-4">
-            <button className="flex max-sm:hidden items-center text-sm gap-2 shadow-sm border-[1px] px-5 py-2 rounded-md">
-              <span>Cart</span>
-              <BsCart3 className="text-lg" />
-            </button>
-            <RippleButton className="text-sm px-5 py-2 bg-[#06065c]">
-              Sign In
-            </RippleButton>
-          </div>
-          {/* cta end */}
+    <header className="absolute top-0 left-0 z-[99] w-full">
+      <div className="bg-black py-3 px-11 flex items-center gap-4 justify-end text-white max-md:hidden">
+        <button className="border-[2px] rounded-full px-3 py-1 text-sm flex items-center gap-2">
+          <BsCart className="text-lg" />
+          <span>Cart</span>
+        </button>
+        <button className="border-[2px] px-5 py-1 text-sm border-white rounded-xl">
+          Login
+        </button>
+      </div>
+      <nav className="sm:px-10 px-4 md:py-3 py-6 flex items-center justify-between">
+        {/* logo start */}
+        <div className="">
+          <h3 className="text-white text-xl font-semibold">HostSpacing</h3>
         </div>
-        {/* first batch end */}
-      </Container>
+        {/* logo end */}
 
-      {/* divider start */}
-      <div className="w-full bg-gray-200 h-[1px]"></div>
-      {/* divider end */}
+        {/* navlinks start */}
+        <ul className="flex items-center gap-7 text-white max-md:hidden">
+          <li className="cursor-pointer">Domain</li>
+          <li className="cursor-pointer">Hosting</li>
+          <li className="cursor-pointer">Wordpress</li>
+          <li className="cursor-pointer">Templates</li>
+          <li className="cursor-pointer">Security</li>
+          <li className="cursor-pointer">Affiliates</li>
+        </ul>
+        {/* navlinks end */}
 
-      {/* second batch start */}
-      <nav className="">
-        <Container className="py-5 flex justify-between items-center">
-          <ul className="flex items-center gap-8 text-sm font-[550] max-md:hidden">
-            <li className="">Domain</li>
-            <li className="">Hosting</li>
-            <li className="">WordPress</li>
-            <li className="">Templates</li>
-            <li className="">Security</li>
-            <li className="">Affiliates</li>
-          </ul>
-
-          <IoMenuSharp className="md:hidden block text-3xl"/>
-
-          <button className="flex items-center gap-2 text-sm text-[#06065c]">
-            <FaGlobe className="text-lg"/>
-            <span>Register a domain</span>
+        {/* mobile controls start */}
+        <div className="flex items-center gap-3">
+          <button className="">
+            <BsCart className="text-xl text-white" />
           </button>
-        </Container>
-        {/* divider start */}
-        <div className="w-full bg-gray-200 h-[1px]"></div>
-        {/* divider end */}
+          <button className="">
+            <MdOutlineMenu className="text-2xl text-white" />
+          </button>
+        </div>
+        {/* mobile controls end */}
       </nav>
-      {/* second batch start */}
     </header>
   );
 }
