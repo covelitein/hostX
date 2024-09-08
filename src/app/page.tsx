@@ -1,4 +1,4 @@
-import { About, Header, Hero, HeroBG } from "@/sections";
+import { About, Cta, Ctaw, Footer, Header, Hero, HeroBG, Plans } from "@/sections";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       {/* header start */}
       <Header />
       {/* header end */}
+
       <main className="grid md:grid-cols-2 grid-cols-1">
         {/* hero start */}
         <Hero />
@@ -17,6 +18,10 @@ export default function Home() {
       </main>
 
       <About />
+      <Plans />
+      <Ctaw />
+      <Cta />
+      <Footer />
     </>
   );
 }

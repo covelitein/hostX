@@ -33,7 +33,7 @@ function Header() {
         {/* navlinks end */}
 
         {/* mobile controls start */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 md:hidden">
           <button className="">
             <BsCart className="text-xl text-white" />
           </button>
