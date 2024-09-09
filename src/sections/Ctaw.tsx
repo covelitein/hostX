@@ -6,7 +6,7 @@ import React from "react";
 
 function Ctaw() {
   const displayTool = tools.map((tool) => (
-    <ToolCard src={tool.src} heading={tool.heading} desc={tool.desc} />
+    <ToolCard key={tool.heading} src={tool.src} heading={tool.heading} desc={tool.desc} />
   ));
   return (
     <section className="py-20">

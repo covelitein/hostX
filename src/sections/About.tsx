@@ -31,7 +31,7 @@ function About() {
 
           {/* pictures start */}
           <div className="col-span-2">
-            <Image src="/imgs/now.jpg" />
+            <Image src="/imgs/now.jpg" alt="now"/>
           </div>
           {/* pictures end */}
         </div>
