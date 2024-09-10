@@ -1,4 +1,4 @@
-import { Cta, Footer, Header, Hero, HeroBG } from "@/sections";
+import { Cta, Footer, Header, Hero, HeroBG, Hosting } from "@/sections";
 
 export default function Home() {
   return (
@@ -18,7 +18,8 @@ export default function Home() {
       </main>
 
       <Cta />
-      
+      <Hosting />
+
       <Footer />
     </>
   );
