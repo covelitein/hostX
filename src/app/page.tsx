@@ -1,4 +1,4 @@
-import { About, Cta, Ctaw, Footer, Header, Hero, HeroBG, Plans } from "@/sections";
+import { Cta, Footer, Header, Hero, HeroBG } from "@/sections";
 
 export default function Home() {
   return (
@@ -17,10 +17,8 @@ export default function Home() {
         {/* img end */}
       </main>
 
-      <About />
-      <Plans />
-      <Ctaw />
       <Cta />
+      
       <Footer />
     </>
   );

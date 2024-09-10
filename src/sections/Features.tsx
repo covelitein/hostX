@@ -11,7 +11,7 @@ function Features() {
       <div className="z-[2] mt-14">
         {/* first start */}
         <motion.div
-          className="z-[9] relative"
+          className="z-[9] absolute top-[15rem] left-20"
           animate={{
             y: [0, 30],
           }}
@@ -22,16 +22,18 @@ function Features() {
             ease: "linear",
           }}
         >
-          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] mb-7 flex items-center gap-5">
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white p-5 rounded-xl w-[10rem] mb-7">
             <FaShieldAlt className="text-3xl" />
-            <h3 className="">30-day money-back guarantee</h3>
+            <h3 className="">
+              30-day <br /> money-back guarantee
+            </h3>
           </div>
         </motion.div>
         {/* first end */}
 
         {/* second start */}
         <motion.div
-          className="z-[9] relative"
+          className="z-[9] absolute top-[15rem] left-[20rem]"
           animate={{
             x: [0, 25],
           }}
@@ -42,7 +44,7 @@ function Features() {
             ease: "linear",
           }}
         >
-          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] mb-7 flex items-center gap-5">
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white p-5 rounded-xl w-[10rem] mb-7 gap-5">
             <FaHeadset className="text-3xl" />
             <h3 className="">Unlimited support</h3>
           </div>
@@ -51,7 +53,7 @@ function Features() {
 
         {/* third start */}
         <motion.div
-          className="z-[9] relative"
+          className="z-[9] absolute top-[25rem] left-[17rem]"
           animate={{
             y: [30, 0],
           }}
@@ -62,7 +64,7 @@ function Features() {
             ease: "linear",
           }}
         >
-          <div className="bg-white/70 backdrop-blur-xl border-2 border-white px-6 py-3 rounded-xl lg:w-[25rem] w-[20rem] flex items-center gap-5">
+          <div className="bg-white/70 backdrop-blur-xl border-2 border-white p-5 rounded-xl w-[10rem]  gap-5">
             <FaCode className="text-3xl" />
             <h3 className="">Standby developers if needed</h3>
           </div>

@@ -1,25 +1,51 @@
 import { Container, RippleButton } from "@/components/custom";
+import { Image } from "@nextui-org/react";
 import React from "react";
 
 function Cta() {
   return (
-    <section className="py-10">
+    <section className="py-20">
       <Container>
-        <div className="min-h-[80vh] bg-[url(/imgs/cta.jpg)] bg-cover bg-center rounded-xl relative flex items-start justify-center flex-col">
-          <div className="absolute top-0 left-0 bg-black/50 h-full w-full z-[2] rounded-xl"></div>
-          <div className="px-20 z-[3] relative text-white">
-            <h3 className="text-4xl mb-7">
-              Grow your customers, <br /> your followers and <br /> your website
-              presence
-            </h3>
-            <p>
-              Help success find you wherever your audience searches <br /> with
-              our automated marketing tools, and our SEO experts <br /> are
-              ready to help you get the best.
-            </p>
-            <RippleButton className="border-2 bg-transparent mt-7">
-              Get started
-            </RippleButton>
+        <h3 className="text-4xl mb-5">
+          Everything your website needs to become the best
+        </h3>
+
+        <div className="grid grid-cols-3 gap-5">
+          <div className="bg-[#06065c] text-white min-h-[25rem] rounded-lg flex items-center justify-center flex-col gap-5">
+            <Image src="/imgs/time-white.png" />
+            <h3 className="text-4xl">24hrs</h3>
+            <h2 className="text-xl">Support</h2>
+          </div>
+          <div className="bg-gray-200 min-h-[25rem] rounded-lg flex items-center justify-center flex-col gap-5">
+            <Image src="/imgs/fr.png" alt=""/>
+            <h3 className="text-4xl">50,000+</h3>
+            <h2 className="text-xl">
+              Servers powering <br /> 187,000 customers
+            </h2>
+          </div>
+          <div className="bg-gray-200 min-h-[25rem] rounded-lg flex items-center justify-center flex-col gap-5">
+            <Image src="/imgs/smart-home-alt.png" alt=""/>
+            <h3 className="text-4xl">99.99%</h3>
+            <h2 className="text-xl">Efficiency</h2>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-5 mt-5">
+          <div className="rounded-lg relative min-h-[20rem] bg-[url(/imgs/now.jpg)] bg-cover bg-center">
+            <div className="absolute bg-black/40 h-full w-full flex items-end justify-start p-5">
+              <div className="">
+                <h3 className="text-white mb-5 text-xl uppercase">
+                  Dont be left behind
+                </h3>
+                <RippleButton className="bg-white rounded-full text-[#06065c]">
+                  Check it out now
+                </RippleButton>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gray-300 rounded-lg min-h-[20rem] flex flex-col gap-5 items-center justify-center">
+            <Image src="/imgs/bike-moving.png" />
+            <h4 className="text-3xl">Efficient Migrations</h4>
           </div>
         </div>
       </Container>
