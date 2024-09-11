@@ -76,3 +76,36 @@ export const pricing: {
     price: "$4.99",
   },
 ];
+
+export const dedicatedServerPoint: { src: string; heading: string; desc: string }[] = [
+  {
+    src: "/imgs/microchip.png",
+    heading: "State-of-the-art tech",
+    desc: "Get top server hardware and software with Intel Xeon or AMD EYPC CPUs running CentOS, Ubuntu or Windows Server.",
+  },
+  {
+    src: "/imgs/hdd.png",
+    heading: "SSD or HDD - your choice",
+    desc: "Whether you want blazing fast read/write - or tons of storage capacity, we’ve got you covered with HDD or NVMe SSDs (up to 25X faster) storage options.",
+  },
+  {
+    src: "/imgs/customer-service.png",
+    heading: "Expert dedicated hosting support.",
+    desc: "All plans come with free standard hosting support. Optional paid server management services include fully managed support and task-based services.",
+  },
+  {
+    src: "/imgs/window-restore.png",
+    heading: "Backups and recovery console",
+    desc: "Set automated backups plus an on-demand snapshot and fix issues using the recovery console (even if you don’t have access to SSH).",
+  },
+  {
+    src: "/imgs/folder-tree.png",
+    heading: "Hardware Flexibility",
+    desc: "More RAM or a powerful GPU? With Dedicated Servers you can adjust the hardware configuration to match even your most demanding needs.",
+  },
+  {
+    src: "/imgs/shield-alt.png",
+    heading: "Security",
+    desc: "Enjoy ‘round-the-clock network monitoring with advanced DDoS protection and a free SSL certificate (for the first year) with a dedicated IP.",
+  },
+];
