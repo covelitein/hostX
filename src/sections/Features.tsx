@@ -8,10 +8,10 @@ function Features() {
   return (
     <div>
       {/* feature start */}
-      <div className="z-[2] mt-14">
+      <div className="z-[2] mt-14 grid grid-cols-2 gap-6">
         {/* first start */}
         <motion.div
-          className="z-[9] absolute top-[15rem] left-20"
+          className="z-[9] relative"
           animate={{
             y: [0, 30],
           }}
@@ -33,7 +33,7 @@ function Features() {
 
         {/* second start */}
         <motion.div
-          className="z-[9] absolute top-[15rem] left-[20rem]"
+          className="z-[9] relative"
           animate={{
             x: [0, 25],
           }}
@@ -53,7 +53,7 @@ function Features() {
 
         {/* third start */}
         <motion.div
-          className="z-[9] absolute top-[25rem] left-[17rem]"
+          className="z-[9] relative"
           animate={{
             y: [30, 0],
           }}

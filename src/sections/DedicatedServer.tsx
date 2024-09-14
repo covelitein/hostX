@@ -16,7 +16,7 @@ function DedicatedServer() {
     <section className="py-10">
       <Container>
         <h3 className="text-3xl">High-powered Dedicated Server Hosting.</h3>
-        <div className="mt-5 grid grid-cols-3 gap-4">{displayPoints}</div>
+        <div className="mt-5 grid md:grid-cols-3 gap-4">{displayPoints}</div>
       </Container>
     </section>
   );

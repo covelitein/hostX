@@ -8,7 +8,7 @@ function Hosting() {
         <h3 className="text-3xl mb-5">
           Maximize Your Project’s Success with Premier Hosting Solutions
         </h3>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-3 gap-5">
           <div className="p-6 bg-gray-200 rounded-lg">
             <button className="bg-[#60a5fa] px-5 py-1 rounded-lg text-white">
               Starting at $3.30/mon

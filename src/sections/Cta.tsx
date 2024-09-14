@@ -10,7 +10,7 @@ function Cta() {
           Everything your website needs to become the best
         </h3>
 
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
           <div className="bg-[#06065c] text-white min-h-[25rem] rounded-lg flex items-center justify-center flex-col gap-5">
             <Image src="/imgs/time-white.png" />
             <h3 className="text-4xl">24hrs</h3>
@@ -30,7 +30,7 @@ function Cta() {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-5 mt-5">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-5 mt-5">
           <div className="rounded-lg relative min-h-[20rem] bg-[url(/imgs/now.jpg)] bg-cover bg-center">
             <div className="absolute bg-black/40 h-full w-full flex items-end justify-start p-5">
               <div className="">

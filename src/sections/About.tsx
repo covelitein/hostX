@@ -6,12 +6,12 @@ function About() {
   return (
     <section className="py-10">
       <Container>
-        <div className="grid grid-cols-2">
-          <div className="bg-gray-300 p-16">
-            <h3 className="mb-10 text-5xl">
+        <div className="grid lg:grid-cols-2">
+          <div className="bg-gray-300 md:p-16 p-9">
+            <h3 className="mb-10 md:text-5xl text-4xl">
               Why Choose Hostspacing as Your Hosting Provider
             </h3>
-            <p className="mb-8 text-lg">
+            <p className="mb-8 md:text-lg">
               At Hostspacing, we’re more than just a hosting service - we’re
               your partner in success. Our mission is to grow with you by
               constantly enhancing our platform to meet your evolving needs.
