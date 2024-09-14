@@ -15,8 +15,9 @@ function Sub_Cta() {
 
           {/* main start */}
           <div className="text-white p-10 w-1/2">
-            <h3 className="text-5xl">
-              Get started with <br /> Liquid Web
+            <h3 className="text-4xl">
+              Expand your customer base, increase your followers, and boost your
+              website's visibility.
             </h3>
             <p className="mt-10">
               Help success find you wherever your audience searches with our

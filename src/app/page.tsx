@@ -1,4 +1,15 @@
-import { About, Cta, DedicatedServer, Footer, Header, Hero, HeroBG, Hosting, Sub_Cta } from "@/sections";
+import {
+  About,
+  Contact,
+  Cta,
+  DedicatedServer,
+  Footer,
+  Header,
+  Hero,
+  HeroBG,
+  Hosting,
+  Sub_Cta,
+} from "@/sections";
 
 export default function Home() {
   return (
@@ -16,13 +27,12 @@ export default function Home() {
         <HeroBG />
         {/* img end */}
       </main>
-
       <Cta />
       <Hosting />
       <DedicatedServer />
       <About />
       <Sub_Cta />
-
+      <Contact />
       <Footer />
     </>
   );
