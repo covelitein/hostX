@@ -12,7 +12,7 @@ function Contact() {
           <div className="rounded-lg">
             <h3 className="mb-5 text-3xl">
               Expand your customer base, increase your followers, and boost your
-              website's visibility.
+              website&apos;s visibility.
             </h3>
             <p className="">
               Drive growth by attracting more customers, increasing followers,
