@@ -7,8 +7,8 @@ function About() {
     <section className="py-10">
       <Container>
         <div className="grid lg:grid-cols-2">
-          <div className="bg-gray-300 md:p-16 p-9">
-            <h3 className="mb-10 md:text-5xl text-4xl">
+          <div className="bg-gray-300 md:p-16 sm:p-9 p-5">
+            <h3 className="mb-10 md:text-5xl sm:text-4xl text-3xl">
               Why Choose Hostspacing as Your Hosting Provider
             </h3>
             <p className="mb-8 md:text-lg">

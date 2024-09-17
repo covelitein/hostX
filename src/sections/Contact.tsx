@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section className="py-10">
       <Container>
-        <div className="text-center bg-gray-300 p-10">
+        <div className="text-center bg-gray-300 sm:p-10 p-7">
           <div className="rounded-lg">
             <h3 className="mb-5 text-3xl">
               Expand your customer base, increase your followers, and boost your

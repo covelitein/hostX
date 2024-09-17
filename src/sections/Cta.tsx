@@ -45,7 +45,7 @@ function Cta() {
           </div>
           <div className="bg-gray-300 rounded-lg min-h-[20rem] flex flex-col gap-5 items-center justify-center">
             <Image src="/imgs/bike-moving.png" />
-            <h4 className="text-3xl">Efficient Migrations</h4>
+            <h4 className="text-3xl text-center">Efficient Migrations</h4>
           </div>
         </div>
       </Container>
