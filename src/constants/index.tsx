@@ -77,7 +77,11 @@ export const pricing: {
   },
 ];
 
-export const dedicatedServerPoint: { src: string; heading: string; desc: string }[] = [
+export const dedicatedServerPoint: {
+  src: string;
+  heading: string;
+  desc: string;
+}[] = [
   {
     src: "/imgs/microchip.png",
     heading: "State-of-the-art tech",
@@ -107,5 +111,58 @@ export const dedicatedServerPoint: { src: string; heading: string; desc: string 
     src: "/imgs/shield-alt.png",
     heading: "Security",
     desc: "Enjoy ‘round-the-clock network monitoring with advanced DDoS protection and a free SSL certificate (for the first year) with a dedicated IP.",
+  },
+];
+
+export const cta: {
+  imageSrc: string;
+  title: string;
+  subtitle: string;
+  bgColor: string;
+}[] = [
+  {
+    imageSrc: "/imgs/time-white.png",
+    title: "24hrs",
+    subtitle: "Support",
+    bgColor: "bg-[#06065c] text-white",
+  },
+  {
+    imageSrc: "/imgs/fr.png",
+    title: "50,000+",
+    subtitle: "Servers powering 187,000 customers",
+    bgColor: "bg-gray-200",
+  },
+  {
+    imageSrc: "/imgs/smart-home-alt.png",
+    title: "99.99%",
+    subtitle: "Efficiency",
+    bgColor: "bg-gray-200",
+  },
+];
+
+export const hostingPlans: {
+  price: string;
+  title: string;
+  description: string;
+  renewsAt: string;
+}[] = [
+  {
+    price: "$3.30/mon",
+    title: "Wordpress Hosting",
+    description:
+      "A Simple, Powerful & Complete solution for WordPress Websites",
+    renewsAt: "Renews at regular rate",
+  },
+  {
+    price: "$2.99/mon",
+    title: "VPS Hosting",
+    description: "High performance SSD VPS powered by KVM and OpenVZ",
+    renewsAt: "Renews at regular rate",
+  },
+  {
+    price: "$4.99/mon",
+    title: "Shared Hosting",
+    description: "Build your ideal website with our easy-to-use Shared Hosting",
+    renewsAt: "Renews at regular rate",
   },
 ];

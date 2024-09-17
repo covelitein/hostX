@@ -3,6 +3,7 @@ import {
   Contact,
   Cta,
   DedicatedServer,
+  FixedSupportAndScroll,
   Footer,
   Header,
   Hero,
@@ -34,6 +35,10 @@ export default function Home() {
       <Sub_Cta />
       <Contact />
       <Footer />
+
+      {/* fixed element start */}
+      <FixedSupportAndScroll />
+      {/* fixed element end */}
     </>
   );
 }

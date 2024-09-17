@@ -22,7 +22,7 @@ function Header() {
         {/* logo end */}
 
         {/* navlinks start */}
-        <ul className="flex items-center gap-7 text-white max-md:hidden">
+        <ul className="flex items-center gap-10 text-white max-md:hidden">
           <li className="cursor-pointer">Domain</li>
           <li className="cursor-pointer">Hosting</li>
           <li className="cursor-pointer">Wordpress</li>
@@ -42,6 +42,12 @@ function Header() {
           </button>
         </div>
         {/* mobile controls end */}
+
+        {/* mobile nav start */}
+        <ul className="">
+          
+        </ul>
+        {/* mobile nav end */}
       </nav>
     </header>
   );

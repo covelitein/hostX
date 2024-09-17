@@ -6,9 +6,13 @@ import React, { ReactNode } from "react";
 const RippleButton = ({
   children,
   className,
+  onMouseEnter,
+  onMouseLeave,
 }: {
   children: ReactNode;
   className?: string;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 }) => {
   const createRipple = (event: any) => {
     const button = event.currentTarget;
@@ -42,6 +46,8 @@ const RippleButton = ({
         className
       )}
       onClick={createRipple}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
     >
       {children}
     </button>

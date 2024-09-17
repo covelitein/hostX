@@ -6,15 +6,9 @@ function Sub_Cta() {
   return (
     <section className="py-10">
       <Container>
-        <div className="md:min-h-[20rem] sm:min-h-[60rem] min-h-[50rem] sm:p-10 p-7 bg-gradient-to-br from-blue-500 via-blue-500 to-blue-700 rounded-xl flex flex-col items-start sm:justify-center relative">
-          {/* absolute start */}
-          <div className="h-48 w-48 absolute bottom-2 right-10">
-            <Image src="/imgs/server.png" />
-          </div>
-          {/* absolute end */}
-
+        <div className="md:min-h-[20rem] sm:min-h-[60rem] min-h-[50rem] sm:p-10 p-7 bg-gradient-to-br from-blue-500 via-blue-500 to-blue-700 rounded-xl grid md:grid-cols-2 gap-5 relative">
           {/* main start */}
-          <div className="text-white md:p-10 md:w-1/2">
+          <div className="text-white md:p-10">
             <h3 className="sm:text-4xl text-3xl">
               Expand your customer base, increase your followers, and boost your
               website&apos;s visibility.
@@ -28,6 +22,12 @@ function Sub_Cta() {
             <RippleButton className="mt-10 ">Get Started</RippleButton>
           </div>
           {/* main end */}
+
+          {/* absolute start */}
+          <div className="">
+            <Image src="/imgs/server.png" />
+          </div>
+          {/* absolute end */}
         </div>
       </Container>
     </section>

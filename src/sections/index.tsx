@@ -9,5 +9,19 @@ import DedicatedServer from "./DedicatedServer";
 import About from "./About";
 import Sub_Cta from "./Sub_Cta";
 import Contact from "./Contact";
+import FixedSupportAndScroll from "./FixedSupportAndScroll";
 
-export { Header, Hero, HeroBG, Footer, Features, Cta, Hosting, DedicatedServer, About, Sub_Cta, Contact };
+export {
+  Header,
+  Hero,
+  HeroBG,
+  Footer,
+  Features,
+  Cta,
+  Hosting,
+  DedicatedServer,
+  About,
+  Sub_Cta,
+  Contact,
+  FixedSupportAndScroll,
+};
