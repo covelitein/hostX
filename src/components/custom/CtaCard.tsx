@@ -27,7 +27,7 @@ const CtaCard: React.FC<CardProps> = ({ imageSrc, title, subtitle, bgColor }) =>
         whileHover={{ scale: 1.1 }} // Scale up the image on hover
         transition={{ duration: 0.3, ease: 'easeOut' }}
       >
-        <Image src={imageSrc} />
+        <Image src={imageSrc} alt=''/>
       </motion.div>
 
       <motion.h3

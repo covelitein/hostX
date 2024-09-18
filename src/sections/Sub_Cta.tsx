@@ -25,7 +25,7 @@ function Sub_Cta() {
 
           {/* absolute start */}
           <div className="">
-            <Image src="/imgs/server.png" />
+            <Image src="/imgs/server.png" alt=""/>
           </div>
           {/* absolute end */}
         </div>

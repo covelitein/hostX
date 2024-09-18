@@ -40,7 +40,7 @@ function Cta() {
                   whileHover={{ scale: 1.1, color: "#60A5FA" }} // Scale and change text color on hover
                   transition={{ duration: 0.3, ease: "easeOut" }}
                 >
-                  Don't be left behind
+                  Don&apos;t be left behind
                 </motion.h3>
                 <RippleButton className="bg-white rounded-full text-[#06065c]">
                   Check it out now
