@@ -1,5 +1,7 @@
+import { Circular } from "@/components/custom";
 import {
   About,
+  Advantage,
   Contact,
   Cta,
   DedicatedServer,
@@ -33,6 +35,7 @@ export default function Home() {
       <DedicatedServer />
       <About />
       <Sub_Cta />
+      <Advantage />
       <Contact />
       <Footer />
 

@@ -166,3 +166,43 @@ export const hostingPlans: {
     renewsAt: "Renews at regular rate",
   },
 ];
+
+import { FaTools, FaRocket, FaGlobe } from "react-icons/fa";
+import { AiFillLock } from "react-icons/ai";
+import { BsFillStarFill } from "react-icons/bs";
+
+// Type definition for each feature
+interface Feature {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+export const features: Feature[] = [
+  {
+    icon: <BsFillStarFill />,
+    title: "27 Years of Experience",
+    description: "Trusted expertise that drives innovation and success.",
+  },
+  {
+    icon: <AiFillLock />,
+    title: "Industry-Leading Reliability",
+    description: "High performance and robust infrastructure you can count on.",
+  },
+  {
+    icon: <FaTools />,
+    title: "24/7 Expert Support",
+    description: "Our dedicated team is here around the clock to assist you anytime, anywhere.",
+  },
+  {
+    icon: <FaRocket />,
+    title: "Hassle-Free Migrations",
+    description: "Seamless transitions with zero downtime.",
+  },
+  {
+    icon: <FaGlobe />,
+    title: "18 Data Centers Worldwide",
+    description: "Global coverage for lightning-fast performance and low latency.",
+  },
+];
+

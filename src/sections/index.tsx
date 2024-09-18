@@ -10,6 +10,7 @@ import About from "./About";
 import Sub_Cta from "./Sub_Cta";
 import Contact from "./Contact";
 import FixedSupportAndScroll from "./FixedSupportAndScroll";
+import Advantage from "./Advantage";
 
 export {
   Header,
@@ -24,4 +25,5 @@ export {
   Sub_Cta,
   Contact,
   FixedSupportAndScroll,
+  Advantage
 };
