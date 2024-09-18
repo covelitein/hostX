@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Advantage() {
   const displayFeatures = features.map((feature) => (
-    <div className="flex items-center my-5 text-2xl gap-5 py-4">
+    <div key={feature.title} className="flex items-center my-5 text-2xl gap-5 py-4">
       {feature.icon}
       <h3 className="max-md:text-xl">{feature.title}</h3>
     </div>
