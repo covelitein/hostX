@@ -44,14 +44,14 @@ function Header() {
         {/* mobile controls start */}
         <div className="flex items-center gap-3 md:hidden">
           <button className="">
-            <BsCart className="text-xl text-white" />
+            <BsCart className="text-2xl text-white" />
           </button>
           <button onClick={handleToggle} className="">
             <motion.div initial={false} animate={{ rotate: isOpen ? 360 : 0 }}>
               {isOpen ? (
-                <MdClose className="text-2xl text-white" />
+                <MdClose className="text-3xl text-white" />
               ) : (
-                <MdOutlineMenu className="text-2xl text-white" />
+                <MdOutlineMenu className="text-4xl text-white" />
               )}
             </motion.div>
           </button>
