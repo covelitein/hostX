@@ -18,10 +18,10 @@ function About() {
             viewport={{ once: true }}
           >
             <h3 className="mb-10 md:text-5xl sm:text-4xl text-3xl">
-              Why Choose Hostspacing as Your Hosting Provider
+              Why Choose HostX as Your Hosting Provider
             </h3>
             <p className="mb-8 md:text-lg">
-              At Hostspacing, we’re more than just a hosting service - we’re your partner
+              At HostX, we’re more than just a hosting service - we’re your partner
               in success. Our mission is to grow with you by constantly enhancing our platform
               to meet your evolving needs. From delivering tailored support to utilizing
               cutting-edge technologies, we stay ahead of industry trends to boost your online

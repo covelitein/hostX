@@ -26,7 +26,7 @@ function Header() {
       <nav className="sm:px-10 px-4 relative md:py-3 py-6 flex items-center justify-between">
         {/* logo start */}
         <div className="">
-          <h3 className="text-white text-xl font-semibold">HostSpacing</h3>
+          <h3 className="text-white text-xl font-semibold">HostX</h3>
         </div>
         {/* logo end */}
 

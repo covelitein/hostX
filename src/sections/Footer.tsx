@@ -170,7 +170,7 @@ const Footer = () => {
         </div>
       </Container>
       <div className="border-t-[2px] border-gray-200 pt-5 text-center mt-5">
-        © 2024 HostSpacing. All Rights Reserved.
+        © 2024 HostX. All Rights Reserved.
       </div>
     </footer>
   );
